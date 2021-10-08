@@ -23,7 +23,7 @@ func gohandler(w http.ResponseWriter, r *http.Request){
     fmt.Fprintln(w, "IP: ", addr)
 }
 func main() {
-    fmt.Fprintln(os.Stdout, "Go!!! Go Application ......")
+    fmt.Fprintln(os.Stdout, "Go! Go! Application ......")
       http.HandleFunc("/", gohandler)
       log.Fatal(http.ListenAndServe(":9090",nil))
 }
