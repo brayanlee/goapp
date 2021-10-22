@@ -1,4 +1,5 @@
 FROM golang:1.15-alpine3.12 AS gobuilder-stage
+MAINTAINER kevin,lee <hylee@dshub.cloud>
 LABEL "purpose"="multi staging build."
 WORKDIR /usr/src/goapp
 COPY ./goapp.go .
