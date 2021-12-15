@@ -1,2 +1,0 @@
-# goapp
-go application repo.
