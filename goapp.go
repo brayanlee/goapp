@@ -13,7 +13,7 @@ func gohandler(w http.ResponseWriter, r *http.Request){
          fmt.Printf("error: %v\n", err)
          return
     }
-    fmt.Fprintln(w, "My Go-Application.")    
+    fmt.Fprintln(w, "My Go-Application 3.0")    
     fmt.Fprintln(w, "hostname: ", name)
 
     addr, err := net.LookupHost(name)
